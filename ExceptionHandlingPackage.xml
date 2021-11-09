@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--<types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>-->
+    <types>
+<members>B2B_Exception</members>
+		<members>B2B_ExceptionLogging</members>
+		<members>B2B_ExceptionLoggingDomain</members>
+		<members>B2B_ExceptionLoggingTest</members>
+<members>B2B_ApplicationLog</members>
+		<members>B2B_Logger</members>
+		<members>B2B_PlatformUtil</members>
+        <members>B2B_UserSelector</members>
+        <members>B2B_WebCartSelector</members>
+        <!--<members>B2B_UserSelector</members>
+        <members>B2B_WebCartSelector</members>
+        <members>B2B_WebCartSelectorTest</members>
+        <members>B2B_TestFactory</members>
+        <members>B2B_TestFactoryTest</members>-->
+		<name>ApexClass</name>
+	</types>
+	
+	<types>
+	<members>B2B_Application_Log__c.Additional_Message__c</members>
+		<members>B2B_Application_Log__c.Application__c</members>
+		<members>B2B_Application_Log__c.Class_Name__c</members>
+		<members>B2B_Application_Log__c.Contact_Address__c</members>
+		<members>B2B_Application_Log__c.Country__c</members>
+		<members>B2B_Application_Log__c.Exception_Type__c</members>
+		<members>B2B_Application_Log__c.Line_Number__c</members>
+		<members>B2B_Application_Log__c.Link_to_Record__c</members>
+		<members>B2B_Application_Log__c.Message_Text__c</members>
+		<members>B2B_Application_Log__c.Method_Name__c</members>
+		<members>B2B_Application_Log__c.Module_Name__c</members>
+		<members>B2B_Application_Log__c.Record_Id__c</members>
+		<members>B2B_Application_Log__c.Request__c</members>
+		<members>B2B_Application_Log__c.Response__c</members>
+		<members>B2B_Application_Log__c.Running_User__c</members>
+		<members>B2B_Application_Log__c.Salesforce_Limits__c</members>
+		<members>B2B_Application_Log__c.Stack_Trace__c</members>
+		<members>B2B_Application_Log__c.Subject__c</members>
+		<members>B2B_Application_Log__c.User_Role_Profile__c</members>
+		<members>B2B_Logging_Settings__c.Default_App_Name__c</members>
+		<members>B2B_Logging_Settings__c.Enable_Application_Log__c</members>
+		<members>B2B_Logging_Settings__c.Enable_Exception_Log__c</members>
+		<members>B2B_Logging_Settings__c.Log_Level__c</members>
+		<name>CustomField</name>
+	</types>
+	
+	<types>
+	<members>B2B_Application_Log__c</members>
+		<members>B2B_Logging_Settings__c</members>
+		<name>CustomObject</name>
+	</types>
+	
+	<types>
+	<members>B2B_Application_Log__c-B2B Application Log Layout</members>
+		<name>Layout</name>
+	</types>
+	
+	
+	<types>
+	<members>B2B_Application_Log__c.All</members>
+		<members>B2B_Application_Log__c.All1</members>
+		<members>B2B_Logging_Settings__c.All</members>
+		<name>ListView</name>
+	</types>
+
+     <types>
+      <members>*</members>
+      <name>CustomLabels</name>
+    </types>
+
+    <types>
+		<members>*</members>	
+		<name>GlobalValueSet</name>
+	</types>
+    <version>52.0</version>
+</Package>
